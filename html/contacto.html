@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - MindWell</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="icon" href="/imagenes/logo.png" sizes="32x32">
+</head>
+<body class="contacto-page">
+    <header>
+        <div style="margin-left: 105px;" class="logo-container">
+            <a href="index.html"><img src="/imagenes/logo.png" alt="Logo de MindWell"></a> <!-- Aquí debes colocar tu logo -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li class="dropdown">
+                    <a href="servicios.html" class="dropbtn">Servicios</a>
+                    <div class="dropdown-content">
+                        <a href="servicios.html#terapia">Terapia</a>
+                        <a href="servicios.html#recursos">Recursos</a>
+                        <a href="servicios.html#comunidad">Comunidad</a>
+                    </div>
+                </li>
+                <li><a href="contacto.html">Contáctanos</a></li>
+                <li>
+                    <a href="https://t.me/tu_grupo_telegram" target="_blank">
+                        
+                        <button class="btn-unirse">Únete a nuestra comunidad</button>  
+                    </a>      
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Form -->
+    <div class="contacto-container">
+    <div class="form-container">
+        <h2>Contacto</h2>
+        <form id="contactForm" action="https://formsubmit.co/tu-correo@ejemplo.com" method="POST" onsubmit="enviarFormulario(event)">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="text" name="apellido" placeholder="Apellido" required>
+            <input type="number" name="edad" placeholder="Edad" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="mensaje" placeholder="Mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <div id="submissionsContainer" class="submissions-container">
+        <!-- Las entradas se mostrarán aquí -->
+    </div>
+    
+    <!-- Mapa -->
+    <div class="map-container">
+        <h1 class="map-title">Ubicación MindWell</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.461221179329!2d-75.60421992405018!3d6.202726326805876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46820c744eb4e7%3A0xad8835a4c50468fc!2sCl.%209%20Sur%20%23%2079C-115%2C%20La%20Hondonada%2C%20Medell%C3%ADn%2C%20Bel%C3%A9n%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1740547007083!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+   </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="redes">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="../imagenes/logo.png" alt="Logo de MindWell">
+                </a>
+            </div>
+
+           <!-- Íconos de redes sociales -->
+           <div class="social-icons">
+            <a href="https://wa.me/573218781319" target="_blank">
+                <img src="../imagenes/icon_wp.png" alt="WhatsApp de MindWell">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61573400438849" target="_blank"><img src="../imagenes/icon_fb.png" alt="Facebook de MindWell"></a>
+            <a href="https://www.instagram.com/mindwell.colombia/" target="_blank"><img src="../imagenes/icon_ig.png" alt="Instagram de MindWell"></a>
+        </div>
+
+        </div>
+
+        <div class="contact">
+
+            <p><strong>Ubicación:</strong> Cll 9sur # 79c-115 Medellín, Colombia</p>
+            <p><strong>Correo:</strong> contacto@mindwell.com</p>
+            <p><strong>Teléfono:</strong> 321 878 1319</p>
+            <p><strong>Horario de Atención:</strong> Lunes a Viernes, 9 AM - 6 PM</p>
+            <p>© 2025 MindWell. Todos los derechos reservados.</p>
+
+        </div>
+
+
+    </footer>
+
+    <script src="/javascript/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>

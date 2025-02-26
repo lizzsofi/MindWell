@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - MindWell</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="icon" href="/imagenes/logo.png" sizes="32x32">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Encabezado con Logo y Menú de Navegación -->
+    <header>
+        <div style="margin-left: 105px;" class="logo-container">
+            <a href="index.html"><img src="/imagenes/logo.png" alt="Logo de MindWell"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li class="dropdown">
+                    <a href="servicios.html" class="dropbtn">Servicios</a>
+                    <div class="dropdown-content">
+                        <a href="servicios.html#terapia">Terapia</a>
+                        <a href="servicios.html#recursos">Recursos</a>
+                        <a href="servicios.html#comunidad">Comunidad</a>
+                    </div>
+                </li>
+                <li><a href="contacto.html">Contáctanos</a></li>
+                <li>
+                    <a href="https://t.me/tu_grupo_telegram" target="_blank">
+                        
+                        <button class="btn-unirse">Únete a nuestra comunidad</button>  
+                    </a>      
+                </li>
+            </ul> 
+        </nav>
+    </header>
+
+    <div class="tituloPrincipal imagenNosotros">
+        <h3 style="text-align: center;">
+            Acompañamos tu camino hacia una mente sana
+        </h3>
+    </div>
+    <main>
+        <div class="nosotros">
+            <h2 style="color: #92e3c8;  font-size: 35px;">Nosotros</h2>
+        <p style="color: #6D6D6D; font-size: 20px;">
+            En MindWell, creemos que la salud mental es un pilar fundamental para el bienestar general. Nuestra misión es brindar apoyo accesible, herramientas efectivas y una comunidad segura para ayudar a jóvenes a gestionar la ansiedad, el estrés y otros desafíos emocionales.
+        </p>
+            <br>
+            <h2 style="color: #92e3c8;  font-size: 35px; ">Nuestra Historia</h2>
+            
+            <p style="color: #6D6D6D; font-size: 20px;">
+            MindWell nació de la necesidad de ofrecer un espacio confiable donde los jóvenes puedan encontrar información, orientación y apoyo sobre salud mental. Conscientes de los retos actuales, decidimos crear una plataforma que combine recursos educativos, terapias en línea y una comunidad de apoyo para que nadie se sienta solo en su camino hacia el bienestar.           
+            </p>
+
+               <!-- Sección de Recursos Destacados -->
+            <section class="recursos">
+                <div class="resource-grid">
+                    <div class="resource-item">
+                        <h3 style="font-size: 35px; color: #92e3c8">
+                            MISIÓN
+                        </h3>
+                        <p style="color: #6D6D6D; font-size: 20px;">
+                            Brindar apoyo accesible, información confiable y una comunidad segura para jóvenes que buscan
+                            mejorar su bienestar mental.
+                            <br />
+                            Queremos que ningún joven se sienta solo en su camino hacia el bienestar emocional.
+                        </p>
+                    </div>
+                    <div class="resource-item">
+
+                        <h3 style="font-size: 35px; color: #92e3c8">
+                            VISIÓN
+                        </h3>
+                        <p style="color: #6D6D6D; font-size: 20px;">
+                            Crear un mundo donde hablar de salud mental sea natural y donde cada joven tenga acceso a las
+                            herramientas necesarias para su bienestar emocional.
+                            <br />
+                            Soñamos con una sociedad en la que pedir ayuda sea visto como un acto de valentía y no de debilidad.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <br>
+
+            <section class="valores">
+                <h2 style="color: #92e3c8;; ">VALORES</h2>
+                <div class="valores-grid">
+                    <div class="valores-item">
+                        <button class="valor-btn" onclick="toggleInfo('empatia')">Empatía</button>
+                        <div class="valor-info" id="empatia">
+                            <p style="font-size: 20px; color: #6D6D6D;">Creemos en la importancia de escuchar y comprender sin juzgar.</p>
+                        </div>
+                    </div>
+                    <div class="valores-item">
+                        <button class="valor-btn" onclick="toggleInfo('accesibilidad')">Confianza</button>
+                        <div class="valor-info" id="accesibilidad">
+                            <p style="font-size: 20px; color: #6D6D6D;">Toda la información que compartimos está respaldada por expertos.</p>
+                        </div>
+                    </div>
+                    <div class="valores-item">
+                        <button class="valor-btn" onclick="toggleInfo('confidencialidad')">Comunidad</button>
+                        <div class="valor-info" id="confidencialidad">
+                            <p style="font-size: 20px; color: #6D6D6D;">Construimos un espacio seguro donde todos se apoyan mutuamente.</p>
+                        </div>
+                    </div>
+                    <div class="valores-item">
+                        <button class="valor-btn" onclick="toggleInfo('ciencia')">Innovación</button>
+                        <div class="valor-info" id="ciencia">
+                            <p style="font-size: 20px; color: #6D6D6D;">Usamos la tecnología para hacer el bienestar mental más accesible.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Tarjetas -->
+            <div class="card-group">
+                <div class="card">
+                  <img src="../imagenes/trabajoNosotros.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: #c6adf7;">¿Cómo Trabajamos?</h5>
+                    <p class="card-text">Ofrecemos recursos diseñados para acompañarte en cada paso de tu        proceso: artículos educativos,
+                        herramientas prácticas y apoyo profesional. Queremos que encuentres lo que necesitas, a tu ritmo y de la
+                        manera que mejor funcione para ti.</p>           
+                  </div>
+                </div>
+        
+                <div class="card">
+                  <img src="../imagenes/compromiso.jpeg" class="card-img-top" style="height: 35.%;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title1" style="margin-top: 1px;">Nuestro Compromiso</h5>
+                    <p class="card-text">No estás solo. Estamos aquí para recordarte que tu bienestar importa, que pedir ayuda es valiente y que
+                        cada pequeño paso que das hacia tu salud mental es un logro.</p>           
+                  </div>
+                </div>
+        
+                <div class="card">
+                  <img src="../imagenes/comunidadNosotros.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: #c6adf7;">Únete a Nuestra Comunidad</h5>
+                    <p class="card-text">Explora nuestros recursos, conéctate con especialistas o simplemente da el primer paso hacia el
+                        bienestar. Estamos aquí para ti.</p>   
+                  </div>
+                </div>
+              </div>
+        </div>
+     
+    </main>
+
+    <footer>
+        <div class="redes">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="../imagenes/logo.png" alt="Logo de MindWell">
+                </a>
+            </div>
+
+            <!-- Íconos de redes sociales -->
+            <div class="social-icons">
+                <a href="https://wa.me/573218781319" target="_blank">
+                    <img src="../imagenes/icon_wp.png" alt="WhatsApp de MindWell">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61573400438849" target="_blank"><img
+                        src="../imagenes/icon_fb.png" alt="Facebook de MindWell"></a>
+                <a href="https://www.instagram.com/mindwell.colombia/" target="_blank"><img
+                        src="../imagenes/icon_ig.png" alt="Instagram de MindWell"></a>
+            </div>
+
+        </div>
+
+        <div class="contact">
+
+            <p><strong>Ubicación:</strong> Cll 9sur # 79c-115 Medellín, Colombia</p>
+            <p><strong>Correo:</strong> contacto@mindwell.com</p>
+            <p><strong>Teléfono:</strong> 321 878 1319</p>
+            <p><strong>Horario de Atención:</strong> Lunes a Viernes, 9 AM - 6 PM</p>
+            <p>© 2025 MindWell. Todos los derechos reservados.</p>
+
+        </div>
+
+
+    </footer>
+
+    <script src="/javascript/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
