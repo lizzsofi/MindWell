@@ -58,4 +58,4 @@ Con **MindWell**, buscamos aportar a la concienciación sobre la importancia de 
 - **Página de WordPress:** [MindWell Healthy](http://mindwellhealthy.infinityfreeapp.com/)
 - **Mockup en Balsamiq:**  [MindWell Healthy](https://balsamiq.cloud/s39ha9r/pr2wuzd/r7709)
 - **Diapositivas:** [Presentación en Canva](https://www.canva.com/design/DAGgIHXIUcw/6MwHHQYFQckRFly8Dum4vg/edit?utm_content=DAGgIHXIUcw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- **Página MindWell:** *(Agregar enlace aquí)*
+- **Página MindWell:** [Acceso WEB](https://lizzsofi.github.io/MindWell/html/index.html)
