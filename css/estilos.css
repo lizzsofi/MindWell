@@ -140,7 +140,7 @@ nav ul li a {
 /* NOSOTROS */
 
 .imagenNosotros {
-    background-image: url("/imagenes/nosotros.jpg");
+    background-image: url("../imagenes/nosotros.jpg");
     background-position: center;
     background-size: 100%;
     background-attachment: fixed;
@@ -269,7 +269,7 @@ nav ul li a {
 
 /* Fondo de imagen solo para la página de contacto */
 .contacto-page {
-    background-image: url('/imagenes/calmaContacto.jpg'); /* Ruta de tu imagen */
+    background-image: url('../imagenes/calmaContacto.jpg'); /* Ruta de tu imagen */
     background-size: cover;  /* Ajusta el tamaño para cubrir toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-attachment: fixed; /* Fija el fondo mientras se desplaza */
